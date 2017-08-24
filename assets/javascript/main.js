@@ -13,4 +13,5 @@ $(document).ready(function(){
     $("#srch").click(function(){
         $("#header .srchbar").slideToggle(1000);
     });
+    $.fatNav();
 });

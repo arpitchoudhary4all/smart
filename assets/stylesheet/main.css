@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 #container {
-    margin: 0px 6px; 
+    margin: 0px 0px; 
 }
 #preloader {
     position: fixed;
@@ -18,26 +18,34 @@ body{
 {
     width: 100%;
     height: 100%;
-   vertical-align: middle;
-    
+   vertical-align: middle;  
 }
 .wow{ 
     visibility: hidden;
+}
+.hamburger{
+    background-color: darkgoldenrod;
+}
+.hamburger__icon,.hamburger__icon, .hamburger__icon:before, .hamburger__icon:after{
+    background-color: white;
+}
+.fat-nav{
+    background-color: darkgoldenrod;
 }
 #header .topbar{
     background-color: black;
     color: white;
 }
 #header .topbar i{
-    font-size: 25px;
-    margin: 12px;
+    font-size: 20px;
+    margin: 10px;
 }
 #header .topbar a{
     color: white;
     font-size: 15px;
     display: inline-block;
     text-decoration: none;
-    margin-right: 18px;
+    margin-right: 15px;
 }
 #header .topbar .fb:hover{
    color: #4867AA;
@@ -56,20 +64,10 @@ body{
 }
 #header .botbar h1{
     color: white;
-    margin-left: 80px;
+    display: inline;
+    text-align: left;
     font-size: 40px;
     font-weight: 900;
-}
-#header .botbar ul{
-    list-style: none;
-}
-#header .botbar ul li{
-    display: inline-block;
-    margin: 15px;
-}
-#header .botbar ul li a{
-    color: white;
-    font-size: 20px;
 }
 #header .botbar button{
     border: none;
@@ -79,6 +77,7 @@ body{
 }
 #header .botbar button i{
     color: white;
+    text-align: right;
     font-size: 15px;
 }
 #header .srchbar{
@@ -97,6 +96,7 @@ body{
     background-image: url("http://fron.tokyo/wp-content/uploads/2016/07/paying-1438142_640.jpg");
     background-size: 100% 100%;
     min-height: 700px;
+    overflow: hidden;
 }
 #banner:after{
     content="";
@@ -128,11 +128,6 @@ body{
     left: 50%;
     color: white;
     font-size: 40px;
-}
-#dot{
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAABmCAMAAAAOARRQAAAAWlBMVEX///8AAADb29vDw8Pv7++tra2Xl5cZGRm2trZUVFTk5ORQUFD09PTf39+vr6/4+PigoKBFRUULCwumpqZ8fHwfHx/Q0NA0NDQqKipgYGC9vb1vb29qamoUFBS6Gw4LAAAA2ElEQVRoge3Waw6DIBBGUUbx/cBWRUXd/zZrmjaxyM8Zkybf2cANMiBKAQAAAAAAAMDfM7qxNtJGNKLjYaLDvLlSrmLXnb4WJ1XJZzoZU6EKeUQ6dvYzWc5f0atfISr45yDerxlKuCtmCFSoqpkzegplqGHONMEKxcwZG86092S4ZyAKZ7hvHH05nG8Rc8ZsocqDe6CVC2U67ooql8BiuL/ZwY1+5dnzV5RK/cwg86tOs5+1DCKRQ16c9qWXe3aUSfWJdAK7f1I3cZu4SItGAAAAAAAAAOAWLxL7Bse6eun6AAAAAElFTkSuQmCC");
-    background-repeat: repeat;
-    background-size: 100% 100%;
 }
 .count p{
     font-size: 75px;
@@ -247,7 +242,7 @@ body{
 #main .team .image:hover:after {
     top: 0%;
     opacity: 1;
-    transform: translateY(-28%);
+    transform: translateY(-48%);
 }
 #main .team .imginfo{
     position: absolute;
@@ -267,6 +262,7 @@ body{
 #main .ability{
     background-color: black;
     color: white;
+    padding: 15px;
     text-align: center;
 }
 #main .portfolio .image{
@@ -392,6 +388,9 @@ body{
 #main .contact h5{
     margin-left: 10px;
     margin-top: 20px;
+}
+#main .contact td{
+    padding: 5px;
 }
 #main .contact input[type='text']{
     margin: 10px;

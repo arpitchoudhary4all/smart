@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Smart Career</title>
     <link rel="stylesheet" href="assets/stylesheet/font-awesome.min.css"/>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/stylesheet/animate.css">
     <link rel="stylesheet" href="assets/stylesheet/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/stylesheet/owl.theme.default.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/javascript/circle-progress.min.js"></script>
+    <link rel="stylesheet" href="assets/stylesheet/jquery.fatNav.css">
+    <link rel="stylesheet" href="assets/stylesheet/circulaar.css">
     <link rel="stylesheet" href="assets/stylesheet/main.css">
 </head>
 <body>
@@ -18,17 +18,16 @@
        <div id="preloader">
           <img src="https://cdn.dribbble.com/users/90627/screenshots/1096260/loading.gif" alt="gif">
        </div>
-       <div id="dot">
            <div id="banner">
            <header id="header">
                <div class="topbar">
                    <div class="row">
-                       <div class="col-sm-offset-1 col-sm-2 wow bounceInLeft" data-wow-delay="5s"> 
+                       <div class="col-sm-offset-1 col-sm-3 wow bounceInLeft" data-wow-delay="5s"> 
                            <i class="fb fa fa-facebook-square" aria-hidden="true"></i>
                            <i class="tw fa fa-twitter-square" aria-hidden="true"></i>
                            <i class="gp fa fa-google-plus-square" aria-hidden="true"></i>
                        </div>
-                       <div class="col-sm-offset-6 col-sm-3 wow bounceInRight" data-wow-delay="5s">
+                       <div class="col-sm-offset-4 col-sm-4 wow bounceInRight" data-wow-delay="5s">
                            <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>LOGIN</a>
                            <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>SIGNUP</a>
                        </div>
@@ -36,20 +35,24 @@
                </div>
                <div class="botbar">
                    <div class="row">
-                       <div class="col-sm-4">
+                       <div class="col-sm-offset-1 col-sm-8">
                            <h1>Smart Career</h1>
                        </div>
-                       <div class="col-sm-7">
-                           <ul>
+                       <div class="col-sm-1">
+                           <div class="fat-nav">
+                           <div class="fat-nav__wrapper">
+                              <ul>
                                <li><a href="#">HOME</a></li>
                                <li><a href="#">ABOUT</a></li>
                                <li><a href="#">SERVICES</a></li>
                                <li><a href="#">TEAM</a></li>
                                <li><a href="#">GALLERY</a></li>
                                <li><a href="#">CONTACT</a></li>
-                           </ul>
+                              </ul>
+                           </div>
+                           </div>
                       </div>
-                      <div class="col-sm-1">
+                      <div class="col-sm-2">
                         <button id="srch">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </button>
@@ -89,7 +92,6 @@
         </div>  
         </div>
         </div>
-       </div>
         <main id="main">
             <div class="row"id="link">
                    <div class="count col-sm-2">
@@ -212,12 +214,16 @@
                             <h3>Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</h3>
                         </div>
                         <div class="ability">
-                            <div id="circle">
-                                <div id="counter">
-                                    <h1>40%</h1>
-                                </div>
+                             <div class="progress blue">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">96%</div>
                             </div>
-                            <h4>A percentage of individual cases that we take yearly, on average.</h4>
+                            <h2>A percentage of individual cases that we take yearly, on average.</h2>
                         </div>
                     </div>
                     <div class="image col-sm-3">
@@ -227,8 +233,16 @@
                             <h3>Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</h3>
                         </div>
                         <div class="ability">
-                            <div class="num"><h1>50%</h1></div>
-                            <h4>A share of commercial / business cases that we process yearly</h4>
+                            <div class="progress yellow">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">90%</div>
+                            </div>
+                            <h2>A percentage of individual cases that we take yearly, on average.</h2>
                         </div>
                     </div>
                     <div class="image col-sm-3">
@@ -238,8 +252,16 @@
                             <h3>Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</h3>
                         </div>
                         <div class="ability">
-                            <div class="num"><h1>60%</h1></div>
-                            <h4>The number of returning customers, over the period of last 10 years</h4>
+                            <div class="progress blue">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">70%</div>
+                            </div>
+                            <h2>A percentage of individual cases that we take yearly, on average.</h2>
                         </div>
                     </div>
                     <div class="image col-sm-3">
@@ -249,8 +271,16 @@
                             <h3>Quis autem vel eum iure reprehenderit qui in ea voluptate velit.</h3>
                         </div>
                         <div class="ability">
-                            <div class="num"><h1>70%</h1></div>
-                            <h4>A percentage of individual cases that we take yearly, on average.</h4>
+                            <div class="progress yellow">
+                                <span class="progress-left">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar"></span>
+                                </span>
+                                <div class="progress-value">80%</div>
+                            </div>
+                            <h2>A percentage of individual cases that we take yearly, on average.</h2>
                         </div>
                     </div>
                 </div>
@@ -486,6 +516,7 @@
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/javascript/wow.min.js"></script>
 <script src="assets/javascript/owl.carousel.min.js"></script>
+<script src="assets/javascript/jquery.fatNav.js"></script>
 <script src="assets/javascript/main.js"></script>
 </body>
 </html>
