@@ -36,6 +36,11 @@ body{
     background-color: black;
     color: white;
 }
+@media (max-width:500px){
+    #header .topbar{
+        display: none;
+    }
+}
 #header .topbar i{
     font-size: 20px;
     margin: 10px;
@@ -89,6 +94,19 @@ body{
     color: white;
     text-align: right;
     font-size: 15px;
+}
+
+@media (max-width:500px){
+    #header .botbar h1{
+        font-size: 30px;
+    }
+    #header .botbar i{
+        font-size: 8px;
+    }
+    #header .botbar button{
+        padding: 5px;
+        margin: 5px;
+    }
 }
 #header .srchbar{
     display: none;
@@ -147,6 +165,11 @@ body{
 .heading h1{
     color: #303030;
     text-shadow: 2px 2px grey;
+}
+@media (max-width:500px){
+    .heading h1{
+        font-size: 25px;
+    }
 }
 #main{
     margin-top: 100px;
@@ -256,7 +279,7 @@ body{
     transform: rotate(-20deg) scale(1.4,1.4);
 }
 #main .feedback{
-    min-height: 300px;
+    min-height: 400px;
     font-family: lato;
 }
 .carousel-indicators{
@@ -289,7 +312,7 @@ body{
 }
 @media(max-width:640px){
     #main .feedback .row{
-        margin: 50px 10px 140px 80px;
+        margin: 20px 30px 25px 80px;
     }
     .carousel-inner{
     min-height: 325px;
@@ -297,7 +320,7 @@ body{
 }
 @media(max-width:480px){
   .carousel-inner{
-    min-height: 350px;
+    min-height: 300px;
     }   
 }
 @media(max-width:360px){
@@ -306,8 +329,8 @@ body{
     height: 20px;
     }
     .carousel-indicators .active {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     }    
     .carousel-inner{
     min-height: 560px;

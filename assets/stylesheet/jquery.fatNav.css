@@ -22,6 +22,14 @@
         padding: 8px;
     }
 }
+@media (max-width:500px){
+    .hamburger{
+        width: 38px;
+        height: 32px;
+        padding: 8px;
+        top: 4px;
+    }
+}
 .hamburger__icon {
   position: relative;
   margin-top: 7px;
