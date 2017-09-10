@@ -24,6 +24,7 @@ body{
     visibility: hidden;
 }
 .hamburger{
+    display:none;
     background-color: darkgoldenrod;
 }
 .hamburger__icon,.hamburger__icon, .hamburger__icon:before, .hamburger__icon:after{
@@ -87,8 +88,8 @@ body{
 #header .botbar button{
     border: none;
     background-color: dodgerblue;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 1px;
 }
 #header .botbar button i{
     color: white;
@@ -279,8 +280,23 @@ body{
     transform: rotate(-20deg) scale(1.4,1.4);
 }
 #main .feedback{
-    min-height: 400px;
+    min-height: 450px;
     font-family: lato;
+}
+@media (max-width:660px){
+    #main .feedback{
+    min-height: 550px;
+    }
+}
+@media (max-width:572px){
+    #main .feedback{
+    min-height: 600px;
+    }
+}
+@media (max-width:512px){
+    #main .feedback{
+    min-height: 650px;
+    }
 }
 .carousel-indicators{
         bottom: -90px;
@@ -312,7 +328,7 @@ body{
 }
 @media(max-width:640px){
     #main .feedback .row{
-        margin: 20px 30px 25px 80px;
+        margin: 10px 20px 15px 60px;
     }
     .carousel-inner{
     min-height: 325px;
@@ -329,8 +345,8 @@ body{
     height: 20px;
     }
     .carousel-indicators .active {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     }    
     .carousel-inner{
     min-height: 560px;

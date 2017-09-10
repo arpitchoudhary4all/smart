@@ -24,10 +24,10 @@
 }
 @media (max-width:500px){
     .hamburger{
-        width: 38px;
+        width: 32px;
         height: 32px;
-        padding: 8px;
-        top: 4px;
+        padding: 8px 4px;
+        top: 0px;
     }
 }
 .hamburger__icon {

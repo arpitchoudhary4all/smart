@@ -1,6 +1,7 @@
 $(document).ready(function(){
    setTimeout(function(){
         $("#preloader").fadeOut(2000);
+        $(".hamburger").css("display","block");
     },4000);
    var owl = $('.owl-carousel'); 
    owl.owlCarousel({
